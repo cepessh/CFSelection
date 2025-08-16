@@ -51,7 +51,7 @@ Selected N problem(s):
 - `exclude_contest_name_patterns` (list): case-insensitive substrings, e.g. `["kotlin"]`
 - `exclude_contest_ids` (list): explicit contest IDs to skip
 - `seed` (int): deterministic RNG
-- `prefer_ipv4` (bool), `cookie_file` (path to Netscape `cookies.txt`), `user_agent` (string)
+- `prefer_ipv4` (bool), `cookie_file` (optional) (path to Netscape `cookies.txt`), `user_agent` (optional, string)
 - `verbose` (bool)
 
 ### Reliability / Performance
