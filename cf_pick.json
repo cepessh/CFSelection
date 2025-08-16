@@ -1,0 +1,26 @@
+{
+
+  "handles": ["Christine-", "Nyemot", "123gjweq2"],
+  "ratings": [1100, 1200, 1300, 1400, 1500, 1600],
+  "year_min": 2019,
+  "year_max": 2022,
+
+  "distinct_contest": false,
+  "distinct_tags": false,
+  "tag_caps": {
+    "strings": 2
+  },
+  "seed": 7,
+
+	"exclude_contest_name_patterns": ["kotlin"],
+
+  "prefer_ipv4": true,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+
+  "min_interval": 2.2,
+  "timeout": 60,
+  "page_size": 1000,
+	"max_pages_per_user": 20,
+  "api_hosts": ["https://codeforces.com/api", "https://www.codeforces.com/api"],
+  "verbose": true
+}
